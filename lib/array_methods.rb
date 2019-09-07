@@ -1,13 +1,7 @@
 def find_element_index(array, value_to_find)
-  for i in array
-  
-    if i === value_to_find
-      
-      puts array.find_index(i)
-      
-    end
-  
-  end
+
+  array.index(value_to_find)
+
 end
 
 def find_max_value(array)
